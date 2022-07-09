@@ -58,6 +58,9 @@ const sr = ScrollReveal({
 })
 
 sr.reveal(`.profile__border`)
+sr.reveal(`.profile__container`)
+sr.reveal(`.topnav`)
+sr.reveal(`.change-theme`)
 sr.reveal(`.profile__name`, {delay: 500})
 sr.reveal(`.profile__profession`, {delay: 600})
 sr.reveal(`.profile__social`, {delay: 700})
