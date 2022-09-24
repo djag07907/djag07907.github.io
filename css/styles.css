@@ -53,7 +53,7 @@
     /* NAVIGATION BAR CSS */
     /* Add a black background color to the top navigation */
     .topnav {
-        background-color: #fafdff;
+        --body-color: hsl(var(--hue), 100%, 99%);
         overflow: hidden;
         text-align: center;
 
@@ -72,8 +72,9 @@
     
     /* Change the color of links on hover */
     .topnav a:hover {
-        background-color: #ddd;
+        background-color: #42a5f5;
         color: black;
+        font-weight: bold;
     }
     
     /* Add a color to the active/current link */
@@ -155,6 +156,13 @@
         --container-color: hsl(var(--hue), 24%, 12%);
     }
 
+    .topnav.dark-theme {
+        
+        --text-color: hsl(var(--hue), 12%, 75%);
+        --body-color: hsl(var(--hue), 40%, 8%);
+        
+    }
+
     /* 
     COLOR CHANGES IN SOME PARTS OF THE WEBSITE, IN LIGHT THEME */
     .dark-theme .button__gray{
@@ -183,6 +191,10 @@
 
     .dark-theme .profile__container{
         background-color: hsl(var(--hue), 24%, 12%);
+    }
+
+    .dark-theme .topnav a {
+        color: white;
     }
 
 
