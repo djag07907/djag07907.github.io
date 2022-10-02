@@ -1,3 +1,10 @@
+// <!-- -----------------------------------------------------------------
+// @copyright    (C) 2022 SoAS
+// @file         main.js
+// @author       Daniel Alvarez <josamogax@gmail.com>
+// @brief        Portfolio main js file to control interactions.
+// @details
+// ------------------------------------------------------------------ -->
 /*jshint -W033 */
 // FILTER TABS
 const tabs = document.querySelectorAll('[data-target]'),

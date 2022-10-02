@@ -1,3 +1,11 @@
+/* 
+<!-- -----------------------------------------------------------------
+@copyright    (C) 2022 SoAS
+@file         style.css
+@author       Daniel Alvarez <josamogax@gmail.com>
+@brief        Portfolio overall css file.
+@details
+------------------------------------------------------------------ --> */
 /* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap');
 
@@ -208,6 +216,28 @@
     .grid{
         display: grid;
         gap: 1.5rem;
+    }
+
+    .basic{
+        row-gap: 2rem;
+        display: block;
+        gap: 1.5rem;
+    }
+
+    .row{
+        display: flex;
+        justify-content: center;
+    }
+
+    .column{
+        flex: 50%;
+    }
+
+    .dev_card{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 35%;
+        /* margin: 10%; */
     }
 
 
@@ -520,6 +550,23 @@
     ::-webkit-scrollbar-thumb:hover{
         background-color: hsl(var(--hue), 8%, 44%);
     }
+
+    /* BIO */
+    .card_container{
+        /* align-items: center;
+        align-content: center; */
+        /* display: flex; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    /* .card_section{
+        align-items: flex-end;
+        align-content: flex-end;
+        
+    } */
 
     /* BREAKPOINT */
     /* FOR SMALL DEVICES */

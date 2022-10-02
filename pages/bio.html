@@ -1,3 +1,10 @@
+<!-- -----------------------------------------------------------------
+@copyright    (C) 2022 SoAS
+@file         bio.html
+@author       Daniel Alvarez <josamogax@gmail.com>
+@brief        Portfolio bio file.
+@details
+------------------------------------------------------------------ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +19,7 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     
     <title>Daniel Alvarez - Portfolio</title>
 </head>
@@ -20,10 +27,10 @@
 
     <!-- NAVIGATION BAR -->
     <div class="topnav">
-        <a href="#contact">Contact</a>
-        <a href="#projects">Projects</a>
-        <a class="tooltip" href="#bio">Bio</a>
-        <a class="active tooltip" href="#home">Home</a>
+        <a class="tooltip" href="../index.html">Contact</a>
+        <a class="tooltip" href="../index.html#projects">Projects</a>
+        <a class="tooltip" href="bio.html">Bio</a>
+        <a class="tooltip" href="../index.html">Home</a>
         
       </div>
 
@@ -31,7 +38,24 @@
     <header class="profile container">
         <!-- Theme button -->
         <i class="ri-moon-line change-theme" id="theme-button"></i>
-
+        <div class="profile__container grid">
+            <h1 class="row">My Daily Dev community card<span class="badge bg-primary"></span></h1>
+            <!-- <div class="card container"> -->
+                <div class="row">
+                    <div class="column">
+                        <a class="dev_card" href="https://app.daily.dev/djag">
+                            <img src="https://api.daily.dev/devcards/168e1824ea3d4276bd598e39f7119ee4.png?r=z6l" 
+                            width="250" alt="Daniel Alvarez's Dev Card"/>
+                        </a>
+                    </div>
+                    <div class="column dev_card">
+                        <a>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse obcaecati fugiat animi assumenda quam?</a>
+                    </div>
+                  <!-- </div> -->
+                
+            </div>
+            
+        </div>
         
 
             </div>
@@ -51,10 +75,10 @@
     </footer>
 
     <!-- SCROLLREVEAL -->
-    <script src="js/scrollreveal.min.js"></script>
+    <script src="../js/scrollreveal.min.js"></script>
 
     <!-- MAIN JS -->
-    <script src="js/main.js"></script>
+    <script src="../js/main.js"></script>
 
 
 
