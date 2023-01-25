@@ -136,8 +136,8 @@
     }
 
     img{
-        max-width: 100%;
-        height: auto;
+        max-width: auto;
+        height: 100%;
     }
 
     /* THEME */
@@ -262,9 +262,10 @@
     .profile__perfil{
         width: 100px;
         height: 100px;
-        background: linear-gradient(180deg,
-                    hsla(var(--hue), var(--sat), var(--lig), 1) 0%,
-                    hsla(var(--hue), var(--sat), var(--lig), .2) 100%);
+        background: white; 
+        /* linear-gradient(180deg, */
+                    /* hsla(var(--hue), var(--sat), var(--lig), 1) 0%, */
+                    /* hsla(var(--hue), var(--sat), var(--lig), .2) 100%); */
         border-radius: 50%;
         overflow: hidden;
         display: flex;
