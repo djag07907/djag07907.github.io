@@ -682,3 +682,14 @@
             margin: 4.5rem 0 2.5rem;
         }
     }
+
+    /* DEV CARD CSS */
+    /* RESPONSIVE */
+    @media only screen and (max-width: 767px) {
+        #dev_card_column{
+            /* width: 50%;
+            height: 50%; */
+            visibility: hidden;
+            display: none;
+        }
+    }
