@@ -7,538 +7,483 @@
 ------------------------------------------------------------------ -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
 
-    <!-- FAVICON  -->
-    <link rel="shortcut icon" href="img/briefcase.png" type="image/x-icon" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
 
-    <!-- REMIX ICONS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
+  <!-- FAVICON  -->
+  <link rel="shortcut icon" href="img/briefcase.png" type="image/x-icon" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css" />
+  <!-- REMIX ICONS -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
 
-    <title>Daniel Alvarez - Portfolio</title>
-  </head>
-  <body>
-    <!-- NAVIGATION BAR -->
-    <div class="topnav">
-      <!-- <a href="#contact">Contact</a> -->
-      <a href="#projects">Projects</a>
-      <a class="tooltip" href="pages/bio.html">Bio</a>
-      <a class="tooltip" href="https://djag07907.github.io/">Home</a>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <title>Daniel Alvarezzzz - Portfolio</title>
+</head>
+
+<body>
+  <!-- NAVIGATION BAR -->
+  <div class="topnav">
+    <!-- <a href="#contact">Contact</a> -->
+    <a href="#projects">Projects</a>
+    <a class="tooltip" href="pages/bio.html">Bio</a>
+    <a class="tooltip" href="https://djag07907.github.io/">Home</a>
+  </div>
+
+  <!-- HEADER PROFILE -->
+  <header class="profile container">
+    <!-- Theme button -->
+    <i class="ri-moon-line change-theme" title="Click to change the theme" id="theme-button"></i>
+    <a title="Link to Daniel's new Portfolio." target="_blank" href="https://danielalvarez-dev.com/"
+      class="button">
+      Click here to check the new Portfolio version
+      <i class="ri-link"></i>
+    </a>
+    <div class="profile__container grid">
+      <div class="profile__data">
+        <div class="profile__border">
+          <div class="profile__perfil">
+            <!-- Insert image, according to the size of the porfolio -->
+            <img src="img/propic.jpg" alt="" />
+          </div>
+        </div>
+
+        <h2 class="profile__name">Daniel Alvarez</h2>
+        <h3 class="profile__profession">
+          Infotechnology Engineer | Mobile and Web Developer | Front End
+          Specialist | IT Consultant
+        </h3>
+
+        <ul class="profile__social">
+          <a href="https://www.linkedin.com/in/daniel-alvarez-b63858181/"
+            title="Daniel's LinkedIn profile" target="_blank" class="profile__social-link">
+            <i class="ri-linkedin-box-line"></i>
+          </a>
+
+          <a href="https://github.com/djag07907" title="Daniel's GitHub repository and profile"
+            target="_blank" class="profile__social-link">
+            <i class="ri-github-fill"></i>
+          </a>
+
+          <a href="https://www.instagram.com/dalvarez_g/" title="Daniel's personal IG"
+            target="_blank" class="profile__social-link">
+            <i class="ri-instagram-line"></i>
+          </a>
+
+          <a href="skype:daniel.alvarez459?chat" title="Daniel's personal Skype" target="_blank"
+            class="profile__social-link">
+            <i class="ri-skype-fill"></i>
+          </a>
+        </ul>
+      </div>
+
+      <div class="profile__info grid">
+        <!-- Years of experience -->
+        <div class="profile__info-group">
+          <h3 class="profile__info-number">+3</h3>
+          <p class="profile__info-description">
+            Years of professional <br />
+            work experience
+          </p>
+        </div>
+        <!-- Completed projects -->
+        <div class="profile__info-group">
+          <h3 class="profile__info-number">+20</h3>
+          <p class="profile__info-description">
+            Completed <br />
+            projects
+          </p>
+        </div>
+        <!-- Satisfied customers -->
+        <div class="profile__info-group">
+          <h3 class="profile__info-number">+10</h3>
+          <p class="profile__info-description">
+            Corporate <br />
+            customers
+          </p>
+        </div>
+      </div>
+
+      <div class="profile__buttons">
+        <!-- CV goes here -->
+        <a download="" title="Download Daniel's CV for additional information." target="_blank"
+          href="pdf/CV_DANIEL_ALVAREZ_2023-English.pdf" class="button">
+          Download CV <i class="ri-download-line"></i>
+        </a>
+
+        <div class="profile__buttons-small">
+          <!-- Number plus country code -->
+          <a href="https://api.whatsapp.com/send/?phone=50495301033&text=Hello, Daniel. Let's get in touch!"
+            title="Contact Daniel through Whatsapp" target="_blank"
+            class="button button__small button__gray">
+            <i class="ri-whatsapp-line"></i>
+          </a>
+
+          <!-- Email mailto -->
+          <a href="mailto:danielalvarezgalo@hotmail.com?cc=josamogax@gmail.com&Subject=Hello%20Daniel,%20I%20want%20to%20get%20in%20touch%20with%20you"
+            title="Reach Daniel through an email" target="_blank"
+            class="button button__small button__gray">
+            <i class="ri-mail-add-line"></i>
+          </a>
+
+          <!-- Messenger brand profile information -->
+          <a href="https://m.me/sonofalvasolutions" title="Messenger not implemented yet😞"
+            target="_blank" class="button button__small button__gray">
+            <i class="ri-messenger-line"></i>
+          </a>
+        </div>
+      </div>
     </div>
+  </header>
 
-    <!-- HEADER PROFILE -->
-    <header class="profile container">
-      <!-- Theme button -->
-      <i
-        class="ri-moon-line change-theme"
-        title="Click to change the theme"
-        id="theme-button"
-      ></i>
-      <a
-        title="Link to Daniel's new Portfolio."
-        target="_blank"
-        href="https://danielalvarez-dev.com/"
-        class="button"
-      >
-        Click here to check the new Portfolio version
-        <i class="ri-link"></i>
-      </a>
-      <div class="profile__container grid">
-        <div class="profile__data">
-          <div class="profile__border">
-            <div class="profile__perfil">
-              <!-- Insert image, according to the size of the porfolio -->
-              <img src="img/propic.jpg" alt="" />
+  <!-- MAIN -->
+  <main class="main">
+    <section class="filters container">
+      <!-- FILTER TABS -->
+      <ul class="filters__content">
+        <button class="filters__button filter-tab-active" data-target="#projects">
+          Projects
+        </button>
+
+        <button class="filters__button" data-target="#skills">Skills</button>
+      </ul>
+
+      <div class="filters__sections">
+        <!-- PROJECTS -->
+        <div class="projects__content grid filters__active" data-content id="projects">
+          <!-- PROJECT 1 -->
+          <article class="projects__card">
+            <img src="img/tato1.png" alt="" class="projects__img" />
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Mobile</span>
+                <h3 class="projects__title">
+                  Tato App - Contact center for offering and acquiring
+                  professional services
+                </h3>
+                <a href="https://youtu.be/huN8egefT2Y" target="_blank"
+                  class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2 -->
+          <article class="projects__card">
+            <img src="img/gotitnoted.png" alt="" class="projects__img" />
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Mobile</span>
+                <h3 class="projects__title">
+                  Got It Noted app - Create interactive notes
+                </h3>
+                <a href="https://play.google.com/store/apps/details?id=solutions.alva.of.son.gotItNoted"
+                  target="_blank" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3 -->
+          <article class="projects__card">
+            <img src="img/karlasl_logo.png" alt="" class="projects__img" />
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Mobile</span>
+                <h3 class="projects__title">
+                  Karla-SL - Sign Language communication facilitator app with
+                  learning sign language features.
+                </h3>
+                <a href="https://github.com/djag07907/karla-sl" title="Under development!"
+                  class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 4 -->
+          <article class="projects__card">
+            <img src="img/developing.png" alt="" class="projects__img" />
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Web</span>
+                <h3 class="projects__title">
+                  Under development... Come back later!
+                </h3>
+                <a href="#" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 5 -->
+          <article class="projects__card">
+            <img src="img/developing.png" alt="" class="projects__img" />
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Design</span>
+                <h3 class="projects__title">
+                  Under development... Come back later!
+                </h3>
+                <a href="#" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- SKILLS -->
+        <div class="skills__content grid" data-content id="skills">
+          <div class="skills__area">
+            <h3 class="skills__title">Frontend development</h3>
+
+            <div class="skills__box">
+              <!-- SKILL GROUP 1 -->
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Bootstrap</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- SKILL GROUP 2 -->
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">VueJS</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Kotlin</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">React Native</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Flutter</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
-          <h2 class="profile__name">Daniel Alvarez</h2>
-          <h3 class="profile__profession">
-            Infotechnology Engineer | Mobile and Web Developer | Front End
-            Specialist | IT Consultant
-          </h3>
+          <div class="skills__area">
+            <h3 class="skills__title">Backend development</h3>
 
-          <ul class="profile__social">
-            <a
-              href="https://www.linkedin.com/in/daniel-alvarez-b63858181/"
-              title="Daniel's LinkedIn profile"
-              target="_blank"
-              class="profile__social-link"
-            >
-              <i class="ri-linkedin-box-line"></i>
-            </a>
+            <div class="skills__box">
+              <!-- SKILL GROUP 3 -->
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Java</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
 
-            <a
-              href="https://github.com/djag07907"
-              title="Daniel's GitHub repository and profile"
-              target="_blank"
-              class="profile__social-link"
-            >
-              <i class="ri-github-fill"></i>
-            </a>
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">PHP</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
 
-            <a
-              href="https://www.instagram.com/dalvarez_g/"
-              title="Daniel's personal IG"
-              target="_blank"
-              class="profile__social-link"
-            >
-              <i class="ri-instagram-line"></i>
-            </a>
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Git</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
 
-            <a
-              href="skype:daniel.alvarez459?chat"
-              title="Daniel's personal Skype"
-              target="_blank"
-              class="profile__social-link"
-            >
-              <i class="ri-skype-fill"></i>
-            </a>
-          </ul>
-        </div>
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Django</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
 
-        <div class="profile__info grid">
-          <!-- Years of experience -->
-          <div class="profile__info-group">
-            <h3 class="profile__info-number">+3</h3>
-            <p class="profile__info-description">
-              Years of professional <br />
-              work experience
-            </p>
+              <!-- SKILL GROUP 4 -->
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">MySQL</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Firebase</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Python</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Node JS</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <!-- Completed projects -->
-          <div class="profile__info-group">
-            <h3 class="profile__info-number">+20</h3>
-            <p class="profile__info-description">
-              Completed <br />
-              projects
-            </p>
-          </div>
-          <!-- Satisfied customers -->
-          <div class="profile__info-group">
-            <h3 class="profile__info-number">+10</h3>
-            <p class="profile__info-description">
-              Corporate <br />
-              customers
-            </p>
-          </div>
-        </div>
 
-        <div class="profile__buttons">
-          <!-- CV goes here -->
-          <a
-            download=""
-            title="Download Daniel's CV for additional information."
-            target="_blank"
-            href="pdf/CV_DANIEL_ALVAREZ_2023-English.pdf"
-            class="button"
-          >
-            Download CV <i class="ri-download-line"></i>
-          </a>
+          <div class="skills__area">
+            <h3 class="skills__title">Additional Professional Knowledge</h3>
 
-          <div class="profile__buttons-small">
-            <!-- Number plus country code -->
-            <a
-              href="https://api.whatsapp.com/send/?phone=50495301033&text=Hello, Daniel. Let's get in touch!"
-              title="Contact Daniel through Whatsapp"
-              target="_blank"
-              class="button button__small button__gray"
-            >
-              <i class="ri-whatsapp-line"></i>
-            </a>
+            <div class="skills__box">
+              <!-- SKILL GROUP 5 -->
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">PowerBi</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
 
-            <!-- Email mailto -->
-            <a
-              href="mailto:danielalvarezgalo@hotmail.com?cc=josamogax@gmail.com&Subject=Hello%20Daniel,%20I%20want%20to%20get%20in%20touch%20with%20you"
-              title="Reach Daniel through an email"
-              target="_blank"
-              class="button button__small button__gray"
-            >
-              <i class="ri-mail-add-line"></i>
-            </a>
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Jira & Confluence</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
 
-            <!-- Messenger brand profile information -->
-            <a
-              href="https://m.me/sonofalvasolutions"
-              title="Messenger not implemented yet😞"
-              target="_blank"
-              class="button button__small button__gray"
-            >
-              <i class="ri-messenger-line"></i>
-            </a>
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">WordPress</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Google Workspace</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- SKILL GROUP 6 -->
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">MailChimp</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Adobe Illustrator</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Adobe Photoshop</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </header>
+    </section>
+  </main>
 
-    <!-- MAIN -->
-    <main class="main">
-      <section class="filters container">
-        <!-- FILTER TABS -->
-        <ul class="filters__content">
-          <button
-            class="filters__button filter-tab-active"
-            data-target="#projects"
-          >
-            Projects
-          </button>
+  <!-- FOOTER -->
+  <footer class="footer container">
+    <span class="footer__copy">
+      &#169; Daniel Alvarez. All rights reserved.
+    </span>
+  </footer>
 
-          <button class="filters__button" data-target="#skills">Skills</button>
-        </ul>
+  <!-- SCROLLREVEAL -->
+  <script src="js/scrollreveal.min.js"></script>
 
-        <div class="filters__sections">
-          <!-- PROJECTS -->
-          <div
-            class="projects__content grid filters__active"
-            data-content
-            id="projects"
-          >
-            <!-- PROJECT 1 -->
-            <article class="projects__card">
-              <img src="img/tato1.png" alt="" class="projects__img" />
+  <!-- MAIN JS -->
+  <script src="js/main.js"></script>
+</body>
 
-              <div class="projects__modal">
-                <div>
-                  <span class="projects__subtitle">Mobile</span>
-                  <h3 class="projects__title">
-                    Tato App - Contact center for offering and acquiring
-                    professional services
-                  </h3>
-                  <a
-                    href="https://youtu.be/huN8egefT2Y"
-                    target="_blank"
-                    class="projects__button button button__small"
-                  >
-                    <i class="ri-link"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-
-            <!-- PROJECT 2 -->
-            <article class="projects__card">
-              <img src="img/gotitnoted.png" alt="" class="projects__img" />
-
-              <div class="projects__modal">
-                <div>
-                  <span class="projects__subtitle">Mobile</span>
-                  <h3 class="projects__title">
-                    Got It Noted app - Create interactive notes
-                  </h3>
-                  <a
-                    href="https://play.google.com/store/apps/details?id=solutions.alva.of.son.gotItNoted"
-                    target="_blank"
-                    class="projects__button button button__small"
-                  >
-                    <i class="ri-link"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-
-            <!-- PROJECT 3 -->
-            <article class="projects__card">
-              <img src="img/karlasl_logo.png" alt="" class="projects__img" />
-
-              <div class="projects__modal">
-                <div>
-                  <span class="projects__subtitle">Mobile</span>
-                  <h3 class="projects__title">
-                    Karla-SL - Sign Language communication facilitator app with
-                    learning sign language features.
-                  </h3>
-                  <a
-                    href="https://github.com/djag07907/karla-sl"
-                    title="Under development!"
-                    class="projects__button button button__small"
-                  >
-                    <i class="ri-link"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-
-            <!-- PROJECT 4 -->
-            <article class="projects__card">
-              <img src="img/developing.png" alt="" class="projects__img" />
-
-              <div class="projects__modal">
-                <div>
-                  <span class="projects__subtitle">Web</span>
-                  <h3 class="projects__title">
-                    Under development... Come back later!
-                  </h3>
-                  <a href="#" class="projects__button button button__small">
-                    <i class="ri-link"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-
-            <!-- PROJECT 5 -->
-            <article class="projects__card">
-              <img src="img/developing.png" alt="" class="projects__img" />
-
-              <div class="projects__modal">
-                <div>
-                  <span class="projects__subtitle">Design</span>
-                  <h3 class="projects__title">
-                    Under development... Come back later!
-                  </h3>
-                  <a href="#" class="projects__button button button__small">
-                    <i class="ri-link"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-          </div>
-
-          <!-- SKILLS -->
-          <div class="skills__content grid" data-content id="skills">
-            <div class="skills__area">
-              <h3 class="skills__title">Frontend development</h3>
-
-              <div class="skills__box">
-                <!-- SKILL GROUP 1 -->
-                <div class="skills__group">
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">HTML</h3>
-                      <span class="skills__level">Intermediate</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">CSS</h3>
-                      <span class="skills__level">Intermediate</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">JavaScript</h3>
-                      <span class="skills__level">Intermediate</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">Bootstrap</h3>
-                      <span class="skills__level">Intermediate</span>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- SKILL GROUP 2 -->
-                <div class="skills__group">
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">VueJS</h3>
-                      <span class="skills__level">Basic</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">Kotlin</h3>
-                      <span class="skills__level">Intermediate</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">React Native</h3>
-                      <span class="skills__level">Basic</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">Flutter</h3>
-                      <span class="skills__level">Intermediate</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="skills__area">
-              <h3 class="skills__title">Backend development</h3>
-
-              <div class="skills__box">
-                <!-- SKILL GROUP 3 -->
-                <div class="skills__group">
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">Java</h3>
-                      <span class="skills__level">Intermediate</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">PHP</h3>
-                      <span class="skills__level">Basic</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">Git</h3>
-                      <span class="skills__level">Intermediate</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">Django</h3>
-                      <span class="skills__level">Basic</span>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- SKILL GROUP 4 -->
-                <div class="skills__group">
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">MySQL</h3>
-                      <span class="skills__level">Basic</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">Firebase</h3>
-                      <span class="skills__level">Basic</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">Python</h3>
-                      <span class="skills__level">Basic</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">Node JS</h3>
-                      <span class="skills__level">Basic</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="skills__area">
-              <h3 class="skills__title">Additional Professional Knowledge</h3>
-
-              <div class="skills__box">
-                <!-- SKILL GROUP 5 -->
-                <div class="skills__group">
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">PowerBi</h3>
-                      <span class="skills__level">Basic</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">Jira & Confluence</h3>
-                      <span class="skills__level">Advanced</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">WordPress</h3>
-                      <span class="skills__level">Advanced</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">Google Workspace</h3>
-                      <span class="skills__level">Intermediate</span>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- SKILL GROUP 6 -->
-                <div class="skills__group">
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">MailChimp</h3>
-                      <span class="skills__level">Advanced</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">Adobe Illustrator</h3>
-                      <span class="skills__level">Basic</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">Adobe Photoshop</h3>
-                      <span class="skills__level">Intermediate</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="footer container">
-      <span class="footer__copy">
-        &#169; Daniel Alvarez. All rights reserved.
-      </span>
-    </footer>
-
-    <!-- SCROLLREVEAL -->
-    <script src="js/scrollreveal.min.js"></script>
-
-    <!-- MAIN JS -->
-    <script src="js/main.js"></script>
-  </body>
 </html>
